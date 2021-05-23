@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_VM01_name": {
+            "value": null
+        },
+        "networkInterfaces_vm01539_name": {
+            "value": null
+        },
+        "publicIPAddresses_VM01_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VM01_nsg_name": {
+            "value": null
+        },
+        "virtualNetworks_VNET_PROD_WEB01_name": {
+            "value": null
+        },
+        "virtualNetworks_Vnet_Hub_Prod_001_name": {
+            "value": null
+        },
+        "bastionHosts_Bastion_mgmt_prod_001_name": {
+            "value": null
+        },
+        "connections_AzureToOnpremConnection_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_vm01_name": {
+            "value": null
+        },
+        "publicIPAddresses_VnetGateWay_PIP_001_name": {
+            "value": null
+        },
+        "publicIPAddresses_Bastion_PIP_PublicIP_name": {
+            "value": null
+        },
+        "localNetworkGateways_ONPremVnet_Gateway_name": {
+            "value": null
+        },
+        "publicIPAddresses_Pip_Firewall_prod_001_name": {
+            "value": null
+        },
+        "azureFirewalls_PublicFirewall_Mgmt_Prod_001_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_Moph_VnetGateWay_Prod_001_name": {
+            "value": null
+        }
+    }
+}
